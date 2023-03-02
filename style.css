@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif; /*tipo de fonte*/
+    background: linear-gradient(180deg, rgba(2, 75, 57, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+
+.page {
+    width: 1000px; /*largura*/
+    margin: 65px auto 0px; /*margin 65 px em cima auto dos lados e 0 em baixo*/
+
+}
+
+.nav1 {
+    
+    display: flex; /*liberar o flex*/
+    justify-content: space-between;  /*espaço entre os itens*/
+    align-items: center; /*alinha os itens em linha reta*/
+    margin-bottom: 55px; /*margem em baixo*/
+}
+
+ul {
+    font-family: 'Mulish', sans-serif;/*tipo de fonte*/
+    display: flex; /*leberar o flex*/
+    list-style: none; /*tirar os pontos da lista*/
+    gap: 48px; /*espaço entre os itens*/
+}
+
+ul li a {
+    color: #1F1534;/*cor da fonte*/
+    text-decoration: none; /*sem a linha mem baixo da f*/
+    opacity: 0.5; /*opacidade*/
+}
+
+ul li a:hover {
+    font-weight: bold; /*sempre que passsar o mouse ficar bold*/
+    opacity: 1; /*quando passar o mouse ficar 100%*/
+}
+
+h1 {
+    margin-bottom: 28px;
+    width: 490px; /*largura do h1*/
+    font-family: 'Mulish', sans-serif; /*tipo de fonte*/
+    font-size: 49px; /*altura*/
+    line-height: 56px; /*altura da linha*/
+    color: #000;;/*cor da fonte*/
+    font-weight: normal; /*tirar o negrito*/
+}
+
+span {
+    color: #89C5CC;
+}
+
+main {
+    display: flex; /*lebrar o display*/
+    justify-content: space-between; /*botar espaço entre os itens*/
+}
+
+section {
+    padding-top: 100px;
+}
+
+section p {
+    font-size: 14px; /*tamanho da fonte*/
+    line-height: 28px; /*altura da linha*/
+    color: #736f7e; /*cor da fonte*/
+    margin-bottom: 40px; /*margem abaixo*/
+}
+
+button {
+    font-family: 'Open Sans', sans-serif;/*tipo de fonte*/
+    text-transform: uppercase; /*Tranformar em letras maiuscula*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 32px 15px;
+    gap: 10px;
+    border: none;
+    background: #69B99D;
+    border-radius: 4px;
+    color: azure;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #73a08f;
+}
+
+footer {
+    font-size: 14px; /*tamanho da fonte */
+    line-height: 28px; /*tamanho da linha*/
+    text-align: center;
+    margin-top: 70px;
+}
+
+footer a {
+    font-weight: bold; /*fonte mais grossa*/
+    text-decoration: none;
+    color: #1F1534;
+}
+
+.balls {
+    position: absolute;
+    right: 0px;
+    bottom: 0%;
+    
+}
+
+
